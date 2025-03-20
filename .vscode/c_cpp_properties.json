@@ -1,0 +1,21 @@
+{
+    "configurations": [
+        {
+            "name": "Flipper",
+            "includePath": [
+                "${workspaceFolder}/**",
+                "${workspaceFolder}/flipperzero-firmware/**",
+                "${workspaceFolder}/flipperzero-firmware/firmware/**",
+                "${workspaceFolder}/flipperzero-firmware/applications/**",
+                "${workspaceFolder}/flipperzero-firmware/applications_user/**",
+                "${workspaceFolder}/flipperzero-firmware/lib/**"
+            ],
+            "defines": [],
+            "compilerPath": "arm-none-eabi-gcc",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-arm"
+        }
+    ],
+    "version": 4
+} 

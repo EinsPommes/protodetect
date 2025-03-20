@@ -1,0 +1,20 @@
+App(
+    appid="protodetect",
+    name="ProtoDetect",
+    apptype=FlipperAppType.EXTERNAL,
+    entry_point="protodetect_app",
+    requires=[
+        "gui",
+        "subghz",
+        "infrared",
+        "storage",
+    ],
+    stack_size=2 * 1024,
+    order=90,
+    fap_icon="icons/protodetect_10px.png",
+    fap_category="Tools",
+    fap_author="Your Name",
+    fap_weburl="https://github.com/einspommes/protodetect",
+    fap_version="1.0",
+    fap_description="Automatische Erkennung und Analyse von Funk- und IR-Protokollen",
+) 
